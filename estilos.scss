@@ -52,58 +52,6 @@ body {
     color: $color1;
 }
 
-header {
-    width: 100%;
-    background: #171717;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    z-index: 1000;
-    transition: .2s;
-}
-
-header .navbar ul {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
-}
-
-header .navbar ul li {
-    margin: 0 1rem;
-}
-
-
-header .navbar ul li a {
-
-    font-size: 2rem;
-    color: $color1;
-    transition: .2s;
-    text-decoration: none;
-}
-
-header .navbar ul li .active,
-header .navbar ul li a:hover {
-    color: #0ef954;
-}
-
-header .amandoyoga {
-    font-size: 2.5rem;
-    color: $color1;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-header .fa-bars {
-    font-size: 3rem;
-    color: #0ef954;
-    cursor: pointer;
-    display: none;
-    transition: .2s;
-}
 
 .home {
     min-height: 50vh;
@@ -440,3 +388,4 @@ header .fa-bars {
     background: $color3;
     border-color: $color3;
 }
+

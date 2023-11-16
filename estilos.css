@@ -8,11 +8,6 @@
   box-sizing: border-box;
 }
 
-*::-moz-selection {
-  background: white;
-  color: black;
-}
-
 *::selection {
   background: white;
   color: black;
@@ -42,56 +37,6 @@ body {
   text-align: center;
   font-weight: 400rem;
   color: white;
-}
-
-header {
-  width: 100%;
-  background: #171717;
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  z-index: 1000;
-  transition: 0.2s;
-}
-
-header .navbar ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-}
-
-header .navbar ul li {
-  margin: 0 1rem;
-}
-
-header .navbar ul li a {
-  font-size: 2rem;
-  color: white;
-  transition: 0.2s;
-  text-decoration: none;
-}
-
-header .navbar ul li .active,
-header .navbar ul li a:hover {
-  color: #0ef954;
-}
-
-header .amandoyoga {
-  font-size: 2.5rem;
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-header .fa-bars {
-  font-size: 3rem;
-  color: #0ef954;
-  cursor: pointer;
-  display: none;
-  transition: 0.2s;
 }
 
 .home {
@@ -421,4 +366,6 @@ header .fa-bars {
   color: white;
   background: #f9580e;
   border-color: #f9580e;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
