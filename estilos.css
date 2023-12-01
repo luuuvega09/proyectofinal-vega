@@ -255,6 +255,8 @@ body {
   text-transform: lowercase;
   font-size: 20px;
   color: white;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .about .row .content p {
